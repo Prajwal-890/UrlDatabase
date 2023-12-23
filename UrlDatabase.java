@@ -74,7 +74,7 @@ public class UrlDatabase {
     private static void listUrls() {
         System.out.println("URLs and Counts:");
         for (int i = 0; i < counter; i++) {
-            if (urls[i] != null) {
+            if (urls[i] != null) {                                 //sorry not list in the form of json
                 System.out.println("Short key: " + shortKeys[i] + ", URL: " + urls[i] + ", Count: " + counts[i]);
             }
         }
