@@ -8,7 +8,7 @@ Features Implemented:
 Architecture and Design Documentation:
 The program follows a command-line interface (CLI) design. It uses a simple in-memory map to store URLs with their short keys and usage counts. The main components include:
 - Main class: UrlDatabase.java
-- Command processing: processCommand() method
+- Command processing: Command() method
 - URL storage: storeUrl(), getUrl(), getCount() methods
 - Short key generation: generateShortKey() method
 
